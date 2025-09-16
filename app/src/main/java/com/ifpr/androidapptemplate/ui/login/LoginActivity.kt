@@ -84,7 +84,7 @@ class LoginActivity : AppCompatActivity() {
         } else {
             Toast.makeText(
                 applicationContext,
-                "Email ou senha incorretos",
+                "errou seu broxa kkkkkkjajajakjakjakja",
                 Toast.LENGTH_SHORT
             ).show()
         }
