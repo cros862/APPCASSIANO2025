@@ -97,6 +97,6 @@
         android:text="Login com Google"
         app:layout_constraintTop_toBottomOf="@id/registerLink"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
