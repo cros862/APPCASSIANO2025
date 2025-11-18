@@ -16,18 +16,6 @@
         android:padding="24dp">
 
         <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="102dp"
-            android:layout_height="73dp"
-            android:src="@drawable/logo_estilo_armaz_m_com_texto"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.024"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.024" />
-
-        <ImageView
             android:id="@+id/bitmapImageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -45,16 +33,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Selecionar Imagem" />
-
-        <ImageView
-            android:id="@+id/imageView13"
-            android:layout_width="wrap_content"
-            android:layout_height="174dp"
-            android:src="@drawable/logo_estilo_armaz_m_com_texto"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_dashboard" />
 
         <EditText
             android:id="@+id/prompt_input"
