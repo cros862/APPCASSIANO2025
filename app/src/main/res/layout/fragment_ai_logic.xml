@@ -4,32 +4,57 @@
     android:id="@+id/ai_logic_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:fitsSystemWindows="true">
+    android:background="#F2EAD9"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#F2EBDA"
         android:orientation="vertical"
         android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="102dp"
+            android:layout_height="73dp"
+            android:src="@drawable/logo_estilo_armaz_m_com_texto"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.024"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.024" />
+
         <ImageView
             android:id="@+id/bitmapImageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginTop="16dp"
             android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Selecionar iMagem"
             android:scaleType="centerCrop"
             android:src="@android:drawable/gallery_thumb"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:contentDescription="Selecionar iMagem"/>
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/btn_select_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Selecionar Imagem"
-            android:layout_marginTop="8dp" />
+            android:layout_marginTop="8dp"
+            android:text="Selecionar Imagem" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="174dp"
+            android:src="@drawable/logo_estilo_armaz_m_com_texto"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_dashboard" />
 
         <EditText
             android:id="@+id/prompt_input"
