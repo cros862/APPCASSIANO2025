@@ -157,7 +157,9 @@ class DashboardFragment : Fragment() {
 
                 //TODO("Capture aqui o conteudo que esta nos outros editTexts que foram criados")
 
-                val item = Item(campo_produto,campo_funcionario,campo_preço,campo_quantidade, base64Image)
+
+                val imageUrl = null
+                val item = Item(campo_produto,campo_funcionario,campo_preço,base64Image,campo_quantidade,imageUrl, )
 
                 saveItemIntoDatabase(item)
             }

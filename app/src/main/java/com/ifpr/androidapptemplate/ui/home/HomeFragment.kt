@@ -81,10 +81,10 @@ class HomeFragment : Fragment() {
                         val enderecoView4 = itemView.findViewById<TextView>(R.id.item_endereco4)
 
 
-                        enderecoView.text = "funcionario: ${item.campo_produto ?: "Não informado"}"
-                        enderecoView2.text = "preço: ${item.campo_produto ?: "Não informado"}"
+                        enderecoView.text = "funcionario: ${item.campo_funcionario ?: "Não informado"}"
+                        enderecoView2.text = "preço: ${item.campo_preço ?: "Não informado"}"
                         enderecoView3.text = "produto: ${item.campo_produto ?: "Não informado"}"
-                        enderecoView4.text = "quantidade: ${item.campo_produto ?: "Não informado"}"
+                        enderecoView4.text = "quantidade: ${item.campo_quantidade ?: "Não informado"}"
 
 
 
